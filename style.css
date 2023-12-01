@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+body{
+  font-family: 'Signika Negative', sans-serif;
+}
+.section{
+    background-image: url('./assets/mycoffee.png');
+}
+#color-nav{
+  background-color: grey;
+}
+#sec{
+  background-image: url('./assets/coffeegarden.jpg');
+}
+#section3{
+  background-image: url('./assets/barista.jpg');
+}
+#custom{
+    padding-top: 120px;
+}
+.section2{
+    background-image: url('./assets/cofeeback.jpg');
+    padding-bottom: 30px;
+}
+.section3{
+  margin-top: 120px;
+}
+
+.flip-card {
+    perspective: 1000px;
+    position: relative;
+    width: 300px;
+    height: 300px;
+  }
+
+  .flip-card-inner {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease;
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front,
+  .flip-card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .flip-card-back {
+    transform: rotateY(180deg);
+  }
+  #text{
+    font-size: x-large;
+  }
+  #color{
+    background-color: rgb(236, 213, 182);
+  }
+  #color a:hover{
+    font-weight: bold;
+    background-color: rgb(91, 94, 69);
+  }
+
+#flex-box h4{
+    margin-top: 80px;
+}
+#section{
+    background-color: rgb(225, 217, 233);
+}
+#border{
+  margin-top: 100px;
+}
+#item li{
+  list-style: none;
+  margin-bottom: 12px;
+  margin-right: 80px;
+}
+#border-radius{
+  border-radius: 50%;
+}
+#food{
+  margin-bottom: 90px;
+}
+#history{
+  font-size: larger;
+  padding-top: 120px;
+  padding-bottom: 150px;
+  color: black;  
+}
+#text1{
+  font-size: larger;
+}
+.footer{
+  background-color: gray;
+  color: white;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.footer-section li a{
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+.footer-section h4 {
+  color: #fff;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-social {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.footer-social li {
+  margin-right: 15px;
+}
+
+.footer-newsletter {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-newsletter input,
+.footer-newsletter button {
+  margin-bottom: 10px;
+}
+
+.footer-info {
+  font-size: 14px;
+  margin-top: 20px;
+}
